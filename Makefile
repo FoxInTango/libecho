@@ -50,8 +50,9 @@ TARGET_LIB_FLAG_STATIC =
 TARGET_LIB_PIC  = 
 TARGET_LIB_FLAG = 
 
-CFLAGS   = -Wall -fvisibility=hidden -I${TARGET_HEADERS_DIR} -I${THIRDS_HEADERS_DIR}
-CXXFLAGS = -std=c++11 
+ASFLAGS =
+CCFLAGS = -c -Wall -fvisibility=hidden -std=c++11  -I${SUPER_INCLUDE_PATH}
+PPFLAGS = -c -Wall -fvisibility=hidden -std=c++11  -I${SUPER_INCLUDE_PATH}
 
 # 平台检测 -- DARWIN
 ifeq (${PLATFORM_ARCH},${PLATFORM_ARCH_DARWIN})
