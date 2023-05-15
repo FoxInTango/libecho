@@ -22,6 +22,9 @@ SOFTWARE.
 */
 #ifndef _ECHO_H_foxintango
 #define _ECHO_H_foxintango
+
+#include "view.h"
+#include "node.h"
 #include <libcpp/libcpp.h>
 
 EXTERN_C_BEGIN
