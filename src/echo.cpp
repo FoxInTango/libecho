@@ -23,6 +23,9 @@ SOFTWARE.
 #include "echo.h"
 using namespace foxintango::echo;
 
+#ifdef _LINUX_KERNEL_MODULE_
+#endif
+
 /*** ESC Code
  *   man console_codes
  *
