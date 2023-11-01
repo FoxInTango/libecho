@@ -50,3 +50,5 @@ Target::Target() {
 Target::~Target() {
 
 }
+
+ScreenTarget screen;
