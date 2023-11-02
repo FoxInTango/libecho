@@ -76,7 +76,8 @@ public:
 
 typedef ScreenTarget s;
 
-extern "C++" ScreenTarget screen;
+extern ScreenTarget screen;
+extern ScreenTarget console;
 
 namespaceEnd
 namespaceEnd
