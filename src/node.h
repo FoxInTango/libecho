@@ -1,12 +1,13 @@
 #ifndef _LIBECHO_NODE_H_foxintango
 #define _LIBECHO_NODE_H_foxintango
 #include <libcpp/libcpp.h>
+#include <vector>
 namespaceBegin(foxintango)
 namespaceBegin(echo)
 class foxintangoAPI node{
 protected:
     unsigned int z_index;
-    Array<node*> subnodes;
+    std::vector<node*> subnodes;
 public:
     node(){};
     virtual ~node();
